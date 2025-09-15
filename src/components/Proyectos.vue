@@ -205,6 +205,8 @@ h2 {
   width: 95%;
   height: 300px;
   margin: 1rem;
+  object-fit: contain;
+  background: black;
 }
 
 .slider {
@@ -230,12 +232,12 @@ h2 {
 }
 .tarjetaProyecto:nth-child(1) .slides img {
   object-fit: contain;
-  background: #fff; /* blanco */
+  background: #fff;
 }
 
 .tarjetaProyecto:nth-child(2) .slides img {
   object-fit: contain;
-  background: #000; /* negro */
+  background: #000;
 }
 
 .slides img:nth-child(1) {

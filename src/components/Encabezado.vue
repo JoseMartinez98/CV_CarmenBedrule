@@ -84,26 +84,28 @@ h1 {
 
 .slide-enter-active,
 .slide-leave-active {
-  transition: all 0.6s ease;
+  transition: transform 0.6s ease, opacity 0.6s ease;
   position: absolute;
   width: 100%;
+  will-change: transform, opacity;
 }
 .slide-enter-from {
-  transform: translateY(100%);
+  transform: translate3d(0, 100%, 0);
   opacity: 0;
 }
 .slide-enter-to {
-  transform: translateY(0);
+  transform: translate3d(0, 0, 0);
   opacity: 1;
 }
 .slide-leave-from {
-  transform: translateY(0);
+  transform: translate3d(0, 0, 0);
   opacity: 1;
 }
 .slide-leave-to {
-  transform: translateY(-100%);
+  transform: translate3d(0, -100%, 0);
   opacity: 0;
 }
+
 .foto {
   display: flex;
   flex-direction: column;
@@ -203,6 +205,7 @@ h2 {
   h2 {
     font-size: 28px;
     line-height: 34px;
+    margin: auto;
   }
 
   h3 {

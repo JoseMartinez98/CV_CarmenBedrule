@@ -243,6 +243,9 @@ h2 {
 }
 
 @media (max-width: 760px) {
+  .container{
+    min-width: 95%;
+  }
   .sobreMi {
     flex-direction: column;
     align-items: center;
@@ -284,33 +287,37 @@ h2 {
   }
 
   .iconos {
-    min-width: 240px;
+    min-width: 200px;
     min-height: 100px;
     margin: 10px;
   }
 
 .herramientas {
+  width: 100%;
     justify-content: center;
-    gap: 15px;
+    gap: 0.5rem;
   }
 
   .iconos {
-    flex: 1 1 calc(50% - 20px); /* 2 por fila */
-    min-width: 140px;
-    max-width: 180px;
+    flex: 1 1 calc(50% - 20px); 
+    max-width: 120px;
     min-height: 90px;
-    margin: 5px;
+    margin: 0.5;
   }
 
   .front,
   .back {
-    font-size: 16px;
-    padding: 8px;
+  display: flex;
+  font-size: 16px;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  gap: 6px; 
   }
 
   .front img {
-    width: 35px;
-    max-height: 35px;
+   width: 40px;  
+  height: auto;
   }
 }
 
