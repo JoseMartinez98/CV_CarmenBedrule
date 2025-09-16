@@ -297,7 +297,7 @@ h2 {
   }
 
   .iconos {
-    min-width: 160px;
+    min-width: 150px;
     min-height: 100px;
     margin: 10px;
     padding: 0.5rem;
@@ -308,17 +308,23 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 2px;
   }
 
-  .front,
+  .front {
+    display: flex;
+    font-size: 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .back {
     display: flex;
     font-size: 14px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 6px;
   }
 
   .front > img {
