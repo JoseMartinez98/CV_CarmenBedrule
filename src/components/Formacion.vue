@@ -66,7 +66,6 @@ const items = reactive([
           </ul>
 
           <div v-if="item.grade !== undefined" class="card-grade">
-            Calificación final: <strong>{{ item.grade }}</strong>
           </div>
         </div>
       </div>

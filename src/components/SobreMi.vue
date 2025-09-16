@@ -297,39 +297,34 @@ h2 {
   }
 
   .iconos {
-    min-width: 200px;
+    min-width: 160px;
     min-height: 100px;
     margin: 10px;
+    padding: 0.5rem;
+    font-size: 10px;
   }
 
   .herramientas {
-    min-width: auto;
-    max-width: 100%;
-    min-height: 120px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 0.5rem;
-  }
-
-  .iconos {
-    flex: 1 1 calc(50% - 20px);
-    max-width: 120px;
-    min-height: 90px;
-    margin: 0.5;
+    gap: 10px;
   }
 
   .front,
   .back {
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 6px;
   }
 
-  .front img {
+  .front > img {
     width: 40px;
     height: auto;
+    margin-left: 10px;
   }
 }
 </style>
