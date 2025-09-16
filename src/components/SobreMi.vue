@@ -52,7 +52,10 @@ const toggleFlip = (index) => {
             <p>Rumano: Nativo</p>
           </div>
           <div class="idioma">
-            <img src="/images/idiomas/english.png" alt="Bandera de Reino Unido" />
+            <img
+              src="/images/idiomas/english.png"
+              alt="Bandera de Reino Unido"
+            />
             <p>Inglés: B1</p>
           </div>
         </div>
@@ -227,14 +230,22 @@ h2 {
   background-color: #0076b6a0;
   font-size: 25px;
   font-weight: bold;
-  box-sizing: border-box; 
-  margin: 0;             
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
 }
 .front img {
   width: 60px;
   max-height: 60px;
 }
+.front p,
+.back p {
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+  word-break: break-word;
+}
+
 .back {
   transform: rotateY(180deg);
   color: #03045e;
@@ -243,7 +254,7 @@ h2 {
 }
 
 @media (max-width: 760px) {
-  .container{
+  .container {
     min-width: 95%;
   }
   .sobreMi {
@@ -265,12 +276,11 @@ h2 {
   }
 
   .lengua {
-    flex-direction: row;     
-    justify-content: center; 
-    gap: 15px;               
-    flex-wrap: wrap;        
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
   }
-
 
   h2 {
     margin-top: 80px;
@@ -292,14 +302,16 @@ h2 {
     margin: 10px;
   }
 
-.herramientas {
-  width: 100%;
+  .herramientas {
+    min-width: auto;
+    max-width: 100%;
+    min-height: 120px;
     justify-content: center;
     gap: 0.5rem;
   }
 
   .iconos {
-    flex: 1 1 calc(50% - 20px); 
+    flex: 1 1 calc(50% - 20px);
     max-width: 120px;
     min-height: 90px;
     margin: 0.5;
@@ -307,18 +319,17 @@ h2 {
 
   .front,
   .back {
-  display: flex;
-  font-size: 16px;
-  flex-direction: row; 
-  justify-content: center;
-  align-items: center;
-  gap: 6px; 
+    display: flex;
+    font-size: 16px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
   }
 
   .front img {
-   width: 40px;  
-  height: auto;
+    width: 40px;
+    height: auto;
   }
 }
-
 </style>
