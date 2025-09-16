@@ -255,7 +255,7 @@ h2 {
 
 @media (max-width: 760px) {
   .container {
-    min-width: 95%;
+    min-width: 98%;
   }
   .sobreMi {
     flex-direction: column;
@@ -267,7 +267,7 @@ h2 {
   .textoInfo {
     max-width: 100%;
     font-size: 16px;
-    margin-bottom: 40px;
+    margin: 30px;
     text-align: justify;
   }
 
