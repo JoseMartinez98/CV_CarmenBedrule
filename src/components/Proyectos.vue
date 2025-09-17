@@ -196,7 +196,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   width: 500px;
-  min-height: 500px;
+  height: 550px;
   background-color: white;
   border: 1px solid #03045e;
   box-shadow: 0 0 15px #023e8a;
