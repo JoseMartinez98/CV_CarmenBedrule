@@ -203,7 +203,7 @@ h2 {
   }
 
   h2 {
-    font-size: 28px;
+    font-size: auto;
     line-height: 34px;
     margin: auto;
   }
