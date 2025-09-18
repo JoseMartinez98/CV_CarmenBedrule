@@ -14,16 +14,16 @@
 
     <div class="social-icons">
       <a
-        href="https://www.linkedin.com/in/carmen-bedrule-b90a99375/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        href="linkedin.com/in/josemartinezgz98"
         target="_blank"
         title="LinkedIn"
       >
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href="tel:+34624091248" title="Llamar al móvil">
+      <a href="tel:+34691797404" title="Llamar al móvil">
         <i class="fas fa-phone"></i>
       </a>
-      <a href="mailto:carmen.bdr21@gmail.com" title="Enviar correo">
+      <a href="mailto:josesw98@gmail.com" title="Enviar correo">
         <i class="fas fa-envelope"></i>
       </a>
     </div>
