@@ -3,6 +3,17 @@ import { reactive } from "vue";
 
 // Datos provistos por el usuario
 const items = reactive([
+    {
+    title: "Diseño de productos gráficos",
+    institution: "ESTUDIVIR Centro de formación",
+    date: "18/11/2025 – ACTUALIDAD",
+    bullets: [
+      "Desarrollo completo de proyectos gráficos.",
+      "Creación y selección creativa con criterio profesional",
+      "Producción técnica impecable y control profesional"
+    ],
+    grade: "9",
+  },
   {
     title: "Herramientas Avanzadas de Adobe Illustrator",
     institution: "ESTUDIVIR Centro de formación",

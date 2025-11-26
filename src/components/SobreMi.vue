@@ -66,6 +66,11 @@ const toggleFlip = (index) => {
       <div
         v-for="(item, index) in [
           {
+            img: '/images/herramientas/indesing.png',
+            title: 'InDesing',
+            back: 'Diseño editorial y maquetación de documentos',
+          },
+          {
             img: '/images/herramientas/adobe.png',
             title: 'Adobe Illustrator',
             back: 'Programa para diseño vectorial',
@@ -318,7 +323,7 @@ h2 {
     justify-content: center;
     align-items: center;
   }
-  
+
   .back {
     display: flex;
     font-size: 14px;

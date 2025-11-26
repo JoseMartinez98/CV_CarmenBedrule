@@ -175,7 +175,7 @@
   align-items: center;
 }
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   line-height: 40px;
   color: #03045e;
